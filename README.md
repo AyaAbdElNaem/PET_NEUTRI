@@ -35,6 +35,3 @@ flowchart LR
     D --> E[RAG Evaluation & Safety Scoring]:::ai
     E --> F[Interactive Streamlit Application & UI]:::ui
 
-<p center="text-center">
-  Crafted with ❤️ for pet health and longevity.
-</p>
