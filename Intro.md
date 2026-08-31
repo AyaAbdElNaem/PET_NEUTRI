@@ -21,14 +21,6 @@ You can access and test the deployed application directly on Streamlit Cloud:
 
 ---
 
-## 🛠️ Quick Tech Overview
-
-- **UI Framework:** Streamlit (Custom Styled)
-- **RAG & Core Engine:** Python, ChromaDB, LangChain
-- **LLM Provider:** Gemini API / Groq API
-- **Hosting Platform:** Streamlit Community Cloud
-
----
 
 <p align="center">
   Designed & Developed for Pet Longevity and Scientific Care.
