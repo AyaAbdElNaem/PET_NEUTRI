@@ -1,4 +1,7 @@
-# 🐾 PetNutri — AI-Powered Pet Nutrition & Health Companion
+# 🐾 PetNutri 
+<p center="text-center">
+  Crafted with ❤️ for pet health and longevity.
+</p> — AI-Powered Pet Nutrition & Health Companion
 
 [![React](https://img.shields.io/badge/Frontend-React_18-blue?logo=react)](https://reactjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Styling-Tailwind_CSS-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
