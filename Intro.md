@@ -4,11 +4,11 @@ Welcome to **PetNutri**, an end-to-end decision support and personalized nutriti
 
 ---
 
-## 🌐 Live Demo & Interactive App
+## 🌐 Live Interactive App
 
 You can access and test the deployed application directly on Streamlit Cloud:
 
-👉 **[Launch PetNutri Streamlit App](https://YOUR-PETNUTRI-APP.streamlit.app)**
+👉 **[Launch PetNutri Streamlit App](https://system-dswzklpa77pw27kvskuysv.streamlit.app/)**
 
 ---
 
