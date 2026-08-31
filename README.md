@@ -2,9 +2,6 @@
 
 [![React](https://img.shields.io/badge/Frontend-React_18-blue?logo=react)](https://reactjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Styling-Tailwind_CSS-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
-[![RAG Architecture](https://img.shields.io/badge/Backend-RAG System-green?logo=python)](https://python.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 **PetNutri** is an end-to-end, science-backed pet nutrition and health web application designed to help pet parents optimize their pets' vitality, monitor daily hydration and diet goals, and receive instant, expert-validated nutritional guidance powered by a Retrieval-Augmented Generation (RAG) backend.
 
 ---
