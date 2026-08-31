@@ -13,27 +13,27 @@
 - 💬 **Interactive RAG Chatbot:** Real-time query system powered by a specialized veterinary knowledge base and hybrid retrieval mechanisms.
 - 📊 **Daily Health Logging:** Visual progress tracking for pet hydration, activity, and dietary goals.
 - 🔒 **Secure User Onboarding:** Seamless access management with email and social login flows.
-- 📱 **Mobile-First Responsive UI:** Modern, clean, and intuitive UI built with React, Tailwind CSS, and Lucide React.
+- 📱 **Responsive UI:** Modern, clean, and intuitive UI built with Streamlit and CSS styling.
 
 ---
 
-## 🏗️ System Architecture
+## 🏗️ System Architecture & Workflow
 
-```text
-[ React Frontend ] ──(HTTP/JSON)──> [ FastAPI / Python Backend ] ──> [ Vector DB / RAG Pipeline ] ──> [ LLM Engine ]
-```
+The architecture follows an end-to-end RAG data pipeline split into 6 distinct operational layers:
 
-1. **Frontend Layer:** Built with React, Vite, and Tailwind CSS. Communicates asynchronously with the backend via Axios.
-2. **Backend RAG Pipeline:** Contextual vector retrieval powered by semantic similarity search over domain-specific pet nutrition knowledge sources.
+```mermaid
+flowchart LR
+    classDef data fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,color:#01579b;
+    classDef db fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#e65100;
+    classDef ai fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#1b5e20;
+    classDef api fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#4a148c;
+    classDef ui fill:#ffebee,stroke:#d32f2f,stroke-width:2px,color:#b71c1c;
 
-
-## 🛠️ Tech Stack
-
-- **Frontend:** React, Vite, Tailwind CSS, Lucide Icons, Axios
-- **Backend & RAG:** Python, FastAPI / Streamlit, LangChain, ChromaDB / FAISS, Gemini API / Groq API
-- **Deployment:** Vercel (Frontend), Render / Streamlit Cloud (Backend)
-
----
+    A[Data Sources: Veterinary Specs & Nutrition Docs]:::data --> B[(Preprocessing & Text Chunking)]:::db
+    B --> C[Vectorization & ChromaDB Storage]:::ai
+    C --> D[Context Retrieval & Prompt Engine]:::api
+    D --> E[RAG Evaluation & Safety Scoring]:::ai
+    E --> F[Interactive Streamlit Application & UI]:::ui
 
 <p center="text-center">
   Crafted with ❤️ for pet health and longevity.
