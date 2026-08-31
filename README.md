@@ -1,9 +1,10 @@
-# 🐾 PetNutri 
-[![React](https://img.shields.io/badge/Frontend-React_18-blue?logo=react)](https://reactjs.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Styling-Tailwind_CSS-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
 <p center="text-center">
   Crafted with ❤️ for pet health and longevity.
 </p> — AI-Powered Pet Nutrition & Health Companion
+
+# 🐾 PetNutri 
+[![React](https://img.shields.io/badge/Frontend-React_18-blue?logo=react)](https://reactjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Styling-Tailwind_CSS-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
 **PetNutri** is an end-to-end, science-backed pet nutrition and health web application designed to help pet parents optimize their pets' vitality, monitor daily hydration and diet goals, and receive instant, expert-validated nutritional guidance powered by a Retrieval-Augmented Generation (RAG) backend.
 
 ---
